@@ -1,0 +1,34 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/Index.css">
+</head>
+
+<body>
+    <h1>Welcome to Flask Tie Homepage!</h1>
+    <img src="~/pics/flasktie3.jpg" width="400" height="300" class="text-center">
+    <p>Here is the fantastic video of our product:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/He-VcSExa-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <ul class="navbar">
+        <li>
+            <a href="/Description">Click to see product description</a>
+            <p>_______________________</p>
+            <p>Subscribe for more information:</p>
+
+            <form method="post">
+                <label for="name">Your name:</label><br>
+                <input type="text" id="name" name="name" value=""><br>
+                <label for="email">Email adress:</label><br>
+                <input type="text" id="email" name="email" value=""><br><br>
+                <input type="submit" value="Submit">
+            </form>
+    </ul>
+
+</body>
+</html>

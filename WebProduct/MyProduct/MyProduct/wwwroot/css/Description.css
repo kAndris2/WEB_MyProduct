@@ -1,0 +1,19 @@
+﻿body {
+    color: black;
+    background-color: bisque;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: darkgoldenrod
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+a {
+    text-align: center;
+}

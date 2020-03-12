@@ -1,0 +1,35 @@
+﻿body {
+    padding-left: 20em;
+    color: black;
+    background-color: bisque;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 11em
+}
+
+    ul.navbar li {
+        background-color: burlywood;
+        margin: 0.8em 0;
+        padding: 0.3em;
+    }
+
+    ul.navbar a {
+        text-decoration: none
+    }
+
+a:visited {
+    color: blueviolet;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
